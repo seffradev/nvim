@@ -1,2 +1,1 @@
-require("avekvist.remap")
-require("avekvist.set")
+require("avekvist")
