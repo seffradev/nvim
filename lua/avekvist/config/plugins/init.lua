@@ -1,8 +1,0 @@
-require("avekvist.config.plugins.telescope")
-require("avekvist.config.plugins.catppuccin")
-require("avekvist.config.plugins.lsp-config")
-require("avekvist.config.plugins.which-key")
-require("avekvist.config.plugins.harpoon")
-require("avekvist.config.plugins.undotree")
-require("avekvist.plugins.vim-fugitive")
-require("avekvist.config.plugins.vim-tmux-navigator")
