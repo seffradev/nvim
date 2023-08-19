@@ -1,13 +1,19 @@
 {
+<<<<<<< HEAD
   "LuaSnip": { "branch": "master", "commit": "6086742e287ce0e40ffa31b1c26b7e8914ffb7a4" },
   "catppuccin": { "branch": "main", "commit": "ad6305594737e16155c41c176c611e865c26bb6d" },
+=======
+  "LuaSnip": { "branch": "master", "commit": "c7984d1cca3d8615e4daefc196597872a0b8d590" },
+  "catppuccin": { "branch": "main", "commit": "12894370fa3c9e2200f3724c4184354d6b79733a" },
+>>>>>>> b2763af (feat: added basic java lsp support)
   "cmp-buffer": { "branch": "main", "commit": "3022dbc9166796b644a841a02de8dd1cc1d311fa" },
-  "cmp-nvim-lsp": { "branch": "main", "commit": "0e6b2ed705ddcff9738ec4ea838141654f12eeef" },
+  "cmp-nvim-lsp": { "branch": "main", "commit": "44b16d11215dce86f253ce0c30949813c0a90765" },
   "cmp-nvim-lua": { "branch": "main", "commit": "f12408bdb54c39c23e67cab726264c10db33ada8" },
   "cmp-path": { "branch": "main", "commit": "91ff86cd9c29299a64f968ebb45846c485725f23" },
-  "copilot.vim": { "branch": "release", "commit": "1358e8e45ecedc53daf971924a0541ddf6224faf" },
-  "friendly-snippets": { "branch": "main", "commit": "70b727d3454cceb3a818b1746be09786568b7e33" },
+  "copilot.vim": { "branch": "release", "commit": "98c293994f1bbebd5bade5d5840ead3b2feb5074" },
+  "friendly-snippets": { "branch": "main", "commit": "5749f093759c29e3694053d048ceb940fe12c3d3" },
   "harpoon": { "branch": "master", "commit": "21f4c47c6803d64ddb934a5b314dcb1b8e7365dc" },
+<<<<<<< HEAD
   "lazy.nvim": { "branch": "main", "commit": "c1aad95243f0d180f41348be26b2417547fb168b" },
   "lsp-zero.nvim": { "branch": "v1.x", "commit": "4c8ebf2e5f2b5ae10cd4347020bb0bb2e7e02384" },
   "mason-lspconfig.nvim": { "branch": "main", "commit": "d381fcb78d7a562c3244e1c8f76406954649db36" },
@@ -15,6 +21,16 @@
   "nvim-cmp": { "branch": "main", "commit": "fa492591fecdc41798cd5d3d1713232a5088fba0" },
   "nvim-lspconfig": { "branch": "master", "commit": "444eab07bb7881cad984c68c89fde276f7a26d81" },
   "nvim-treesitter": { "branch": "master", "commit": "517a79c84890507e0868982f23c7723541a0d0ea" },
+=======
+  "lazy.nvim": { "branch": "main", "commit": "4c8b625bc873ca76b76eee0c28c98f1f7148f17f" },
+  "lsp-zero.nvim": { "branch": "v1.x", "commit": "de0e7d7c75cb032107d4a728aa0a63a61d8e5909" },
+  "mason-lspconfig.nvim": { "branch": "main", "commit": "c993ca55e3991535bc74cd2d6ef273810d066c84" },
+  "mason.nvim": { "branch": "main", "commit": "db58ec7bc9248fb1878172f90cadc825b77564a6" },
+  "nvim-cmp": { "branch": "main", "commit": "e1f1b40790a8cb7e64091fb12cc5ffe350363aa0" },
+  "nvim-jdtls": { "branch": "master", "commit": "c6a3c47a0c57c6c0c9b5fb92d3770bb59e92d9c6" },
+  "nvim-lspconfig": { "branch": "master", "commit": "b6b34b9acf84949f0ac1c00747765e62b81fb38d" },
+  "nvim-treesitter": { "branch": "master", "commit": "f04f137acb1b591a5c21df8c201e8df4878d33ed" },
+>>>>>>> b2763af (feat: added basic java lsp support)
   "plenary.nvim": { "branch": "master", "commit": "36aaceb6e93addd20b1b18f94d86aecc552f30c4" },
   "telescope.nvim": { "branch": "master", "commit": "776b509f80dd49d8205b9b0d94485568236d1192" },
   "undotree": { "branch": "master", "commit": "485f01efde4e22cb1ce547b9e8c9238f36566f21" },
