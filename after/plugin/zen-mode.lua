@@ -1,1 +1,1 @@
-vim.keymap.set("n", "<leader>zz", "<cmd>ZenMode<CR>", { desc = "Toggle ZenMode" })
+vim.keymap.set("n", "<leader>zm", "<cmd>ZenMode<CR>", { desc = "Toggle zen mode" })

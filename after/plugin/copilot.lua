@@ -1,2 +1,2 @@
-vim.keymap.set("n", "<leader>cp", "<cmd>Copilot panel<CR>", { desc = "Toggle Copilot Panel" })
-vim.keymap.set("n", "<leader>cs", "<cmd>Copilot status<CR>", { desc = "Show Copilot Status" })
+vim.keymap.set("n", "<leader>cp", ":Copilot panel<CR>", { desc = "Toggle Copilot panel" })
+vim.keymap.set("n", "<leader>cs", ":Copilot status<CR>", { desc = "Show Copilot status" })
