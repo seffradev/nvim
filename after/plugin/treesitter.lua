@@ -11,6 +11,7 @@ configs.setup({
         "rust",
         "typescript",
         "html",
+        "go",
     },
     sync_install = false,
     highlight = { enable = true },
