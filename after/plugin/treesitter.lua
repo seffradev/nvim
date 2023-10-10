@@ -12,6 +12,7 @@ configs.setup({
         "typescript",
         "html",
         "go",
+        "python",
     },
     sync_install = false,
     highlight = { enable = true },
