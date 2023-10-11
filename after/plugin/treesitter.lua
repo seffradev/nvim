@@ -13,6 +13,7 @@ configs.setup({
         "html",
         "go",
         "python",
+        "java",
     },
     sync_install = false,
     highlight = { enable = true },
