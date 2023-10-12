@@ -15,6 +15,7 @@ configs.setup({
         "python",
         "java",
         "yaml",
+        "make",
     },
     sync_install = false,
     highlight = { enable = true },
