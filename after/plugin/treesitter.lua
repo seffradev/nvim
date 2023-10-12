@@ -14,6 +14,7 @@ configs.setup({
         "go",
         "python",
         "java",
+        "yaml",
     },
     sync_install = false,
     highlight = { enable = true },
