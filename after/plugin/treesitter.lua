@@ -16,6 +16,7 @@ configs.setup({
         "java",
         "yaml",
         "make",
+        "sql",
     },
     sync_install = false,
     highlight = { enable = true },
