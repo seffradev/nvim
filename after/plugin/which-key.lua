@@ -114,6 +114,11 @@ local mappings = {
     g = {
         name = "Git"
     },
+    w = {
+        name = "Worktree",
+        c = { "<cmd>lua require('telescope').extensions.git_worktree.create_git_worktree()<cr>", "Create" },
+        s = { "<cmd>lua require('telescope').extensions.git_worktree.git_worktrees()<cr>", "Switch" },
+    },
 }
 
 wk.setup(setup)

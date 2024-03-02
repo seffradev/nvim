@@ -91,4 +91,7 @@ return {
             "nvim-telescope/telescope.nvim",
         },
     },
+    {
+        "ThePrimeagen/git-worktree.nvim",
+    }
 }
