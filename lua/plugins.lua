@@ -21,6 +21,10 @@ return {
         },
     },
     {
+        "nvim-treesitter/nvim-treesitter-textobjects",
+        lazy = true,
+    },
+    {
         "folke/which-key.nvim",
         event = "VeryLazy",
         init = function()
