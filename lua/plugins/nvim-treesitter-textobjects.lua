@@ -32,6 +32,15 @@ return {
                         ["id"] = { query = "@comment.inner", desc = "Select inner part of a comment" },
                     },
                 },
+                swap = {
+                    enable = true,
+                    swap_next = {
+                        ["<leader>na"] = "@parameter.inner",
+                    },
+                    swap_previous = {
+                        ["<leader>pa"] = "@parameter.inner",
+                    },
+                },
             },
         })
     end
