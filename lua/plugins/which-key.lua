@@ -129,7 +129,7 @@ return {
             },
             z = {
                 name = "Zen Mode",
-                m = { "cmd>ZenMode<cr>", "Toggle zen mode" },
+                m = { "<cmd>ZenMode<cr>", "Toggle zen mode" },
             },
             g = {
                 name = "Git",
