@@ -95,5 +95,6 @@ return {
         require("lspconfig").gopls.setup({})
         require("lspconfig").yamlls.setup({})
         require("lspconfig").sqlls.setup({})
+        require("lspconfig").bashls.setup({})
     end
 }
