@@ -96,5 +96,6 @@ return {
         require("lspconfig").yamlls.setup({})
         require("lspconfig").sqlls.setup({})
         require("lspconfig").bashls.setup({})
+        require("lspconfig").csharp_ls.setup({})
     end
 }
