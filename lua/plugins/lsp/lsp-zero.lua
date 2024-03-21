@@ -97,5 +97,6 @@ return {
         require("lspconfig").sqlls.setup({})
         require("lspconfig").bashls.setup({})
         require("lspconfig").csharp_ls.setup({})
+        require("lspconfig").html.setup({})
     end
 }
