@@ -62,10 +62,10 @@ return {
                 { desc = "Show workspace symbols", buffer = bufnr, remap = false })
             vim.keymap.set("n", "<leader>ld", function() vim.diagnostic.open_float() end,
                 { desc = "Open diagnostics", buffer = bufnr, remap = false })
-            vim.keymap.set("n", "[d", function() vim.diagnostic.goto_next() end,
-                { desc = "Go to next", buffer = bufnr, remap = false })
-            vim.keymap.set("n", "]d", function() vim.diagnostic.goto_prev() end,
-                { desc = "Go to previous", buffer = bufnr, remap = false })
+            vim.keymap.set("n", "<leader>nd", function() vim.diagnostic.goto_next() end,
+                { desc = "Go to next diagnostic", buffer = bufnr, remap = false })
+            vim.keymap.set("n", "<leader>pd", function() vim.diagnostic.goto_prev() end,
+                { desc = "Go to previous diagnostic", buffer = bufnr, remap = false })
             vim.keymap.set("n", "<leader>lc", function() vim.lsp.buf.code_action() end,
                 { desc = "Show available code actions", buffer = bufnr, remap = false })
             vim.keymap.set("n", "<leader>lR", function() vim.lsp.buf.references() end,
